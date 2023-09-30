@@ -9,7 +9,7 @@ const botConfig = {
 
 const pluginsConfig = {
   mirror: {
-    prefix: ".up",
+    prefix: ".u",
   },
   yts: {
     prefix: ".yts",
