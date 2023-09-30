@@ -12,7 +12,7 @@ const pluginsConfig = {
     prefix: ".u",
   },
   yts: {
-    prefix: ".yts",
+    prefix: ".ys",
   }
 };
 
