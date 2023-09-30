@@ -1,6 +1,6 @@
 const Bot = require("./Bot");
 const Mirror = require("./plugins/Mirror");
-const yts = require("./plugins/yts");
+const ys = require("./plugins/ys");
 const { botConfig, pluginsConfig } = require("./config");
 
 const http = require('http');
@@ -23,7 +23,7 @@ server.listen(PORT, (err) => {
 
 const plugins = [
   new Mirror(pluginsConfig.mirror),
-  new yts(pluginsConfig.yts),
+  new yts(pluginsConfig.ys),
 ];
 
 const bot = new Bot(plugins, botConfig);
