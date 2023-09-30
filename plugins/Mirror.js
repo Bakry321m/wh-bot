@@ -75,7 +75,7 @@ class Mirror {
 
       const videoStream = fs.createReadStream(destination);
 
-      this.#sendmsg(
+      this.#sendMessage(
         key.remoteJid,
         {
           document: videoStream,
